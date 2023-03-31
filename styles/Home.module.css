@@ -344,6 +344,10 @@
   margin-top: 0.5rem;
 }
 
+.cardTopLeftTitle > code:hover {
+  cursor: pointer;
+}
+
 .cardTopLeftButton {
   display: flex;
   justify-content: center;
@@ -377,9 +381,10 @@
 }
 
 .cardTech > h3 {
-  font-weight: 200;
-  font-size: 1.3vh;
-  color: rgb(201, 201, 201)
+  font-weight: 400;
+  font-size: 1.1vh;
+  letter-spacing: 0.05rem;
+  color: rgb(208, 184, 215)
 }
 
 .cardTech > h4 {

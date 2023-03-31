@@ -42,8 +42,8 @@ export default function Home() {
               <h5 className={styles.tooltip} id={styles.githubtooltip}>Github</h5>
             </div>
             <div id={styles.buttons}>
-              <button onClick={() => window.open('/pdf/resume.pdf')}>View Resume</button>
-              <button>Projects</button>
+              <button onClick={() => window.open('/pdf/MyResume.pdf')}>View Resume</button>
+              <button onClick={() => window.open('https://github.com/dylanw422?tab=repositories')}>Github</button>
             </div>
           </div>
           <div id={styles.bioright}>
@@ -62,7 +62,7 @@ export default function Home() {
                 <div className={styles.cardTopLeft}>
                   <div className={styles.cardTopLeftTitle}>
                     <h3>Vinally</h3>
-                    <code>/dylanw422/shopapp</code>
+                    <code onClick={() => window.open('https://github.com/dylanw422/shopapp')}>/dylanw422/shopapp</code>
                   </div>
                   <div className={styles.cardTopLeftButton}>
                     <button onClick={() => window.open('https://shopapp-five.vercel.app')}>View Project</button>
@@ -88,7 +88,7 @@ export default function Home() {
                 <div className={styles.cardTopLeft}>
                   <div className={styles.cardTopLeftTitle}>
                     <h3>Prism</h3>
-                    <code>/dylanw422/prism</code>
+                    <code onClick={() => window.open('https://github.com/dylanw422/prism')}>/dylanw422/prism</code>
                   </div>
                   <div className={styles.cardTopLeftButton}>
                     <button onClick={() => window.open('https://prism-beta.vercel.app')}>View Project</button>
@@ -114,7 +114,7 @@ export default function Home() {
                 <div className={styles.cardTopLeft}>
                   <div className={styles.cardTopLeftTitle}>
                     <h3>SayDifferent</h3>
-                    <code>/dylanw422/saydifferent</code>
+                    <code onClick={() => window.open('https://github.com/dylanw422/saydifferent')}>/dylanw422/saydifferent</code>
                   </div>
                   <div className={styles.cardTopLeftButton}>
                     <button onClick={() => window.open('https://saydifferent.vercel.app')}>View Project</button>
