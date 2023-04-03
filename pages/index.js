@@ -43,7 +43,7 @@ export default function Home() {
             </div>
             <div id={styles.buttons}>
               <button onClick={() => window.open('/pdf/myResume.pdf')}>View Resume</button>
-              <button onClick={() => window.open('https://github.com/dylanw422?tab=repositories')}>Github</button>
+              <button onClick={() => window.open('https://github.com/dylanw422')}>Github</button>
             </div>
           </div>
           <div id={styles.bioright}>
