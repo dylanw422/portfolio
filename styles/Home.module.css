@@ -151,6 +151,7 @@
 
 .tooltip {
   display: none;
+  z-index: 2;
 }
 
 #react:hover ~ #reacttooltip {
