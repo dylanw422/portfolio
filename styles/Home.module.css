@@ -377,19 +377,19 @@
 
 .cardDescription > h3 {
   font-weight: 200;
-  font-size: 1.3vh;
+  font-size: 1.5vh;
 }
 
 .cardTech > h3 {
   font-weight: 400;
-  font-size: 1.1vh;
+  font-size: 1.2vh;
   letter-spacing: 0.05rem;
   color: rgb(208, 184, 215)
 }
 
 .cardTech > h4 {
   font-weight: 200;
-  font-size: 1.3vh;
+  font-size: 1.5vh;
 }
 
 .cardBottom {
@@ -489,8 +489,9 @@
   border-radius: 5px;
 }
 
-#github {
-  scale: 1.2
+#githubbottom {
+  scale: 1.2;
+  filter: invert(100);
 }
 
 .socialimages {
@@ -504,7 +505,7 @@
   cursor: pointer;
 }
 
-#github:hover {
+#githubbottom:hover {
   scale: 1.4;
   cursor: pointer;
 }
