@@ -42,7 +42,7 @@ export default function Home() {
               <h5 className={styles.tooltip} id={styles.githubtooltip}>Github</h5>
             </div>
             <div id={styles.buttons}>
-              <button onClick={() => window.open('/pdf/myResume.pdf')}>View Resume</button>
+              <button onClick={() => window.open('/pdf/dylansResume.pdf')}>View Resume</button>
               <button onClick={() => window.open('https://github.com/dylanw422')}>Github</button>
             </div>
           </div>
